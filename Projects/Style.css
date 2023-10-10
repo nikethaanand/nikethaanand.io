@@ -1,0 +1,96 @@
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .topnav {
+            position: sticky;
+            top: 0;
+            z-index: 100;  
+            background-color: #FFFFFA;
+            display: flex;
+        }
+        .name-heading {
+            font-weight: bold;
+            margin: 0;
+            padding: 30px;
+            justify-content: flex-start;
+        }
+
+        .topnav a {
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            padding: 30px;
+            margin: 0;
+            transition: background-color 0.3s;
+            justify-content: right;
+
+        }
+
+        .topnav a.active {
+            background-color: rgb(196, 196, 196);
+            color: black;
+            margin-left: 0;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+        }
+
+        @media screen and (max-width: 768px) {
+            .topnav {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+            }
+            .topnav a {
+                margin-left: 0;
+            }
+        }
+
+        .container-contents {
+            width: 100%;
+            padding-top: 5%;
+            background-color: #fdda77;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container-data {
+            width: 100%;
+            padding-top: 5%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333; 
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #666; 
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        .project-block {
+            margin-bottom: 30px; 
+        }
+        .left-element,
+        .right-element {
+            display: inline-block;
+            vertical-align: top; 
+            margin-right: 10px; 
+        }
