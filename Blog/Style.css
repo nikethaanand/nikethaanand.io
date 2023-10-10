@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+        .topnav {
+            position: sticky;
+            top: 0;
+            z-index: 100;         
+            background-color: #FFFFFA;
+            display: flex;
+        }
+
+        .name-heading {
+            font-weight: bold;
+            margin: 0;
+            padding: 30px;
+            justify-content: flex-start;
+        }
+
+        .topnav a {
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            padding: 30px;
+            margin: 0;
+            transition: background-color 0.3s;
+            justify-content: right;
+
+        }
+
+        .topnav a.active {
+            background-color: rgb(196, 196, 196);
+            color: black;
+            margin-left: 0;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+        }
+
+        @media screen and (max-width: 768px) {
+            .topnav {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px;
+            }
+            .topnav a {
+                margin-left: 0;
+            }
+            .container-contents {
+                height: auto; 
+                min-height: 600px; 
+
+            }
+            .inside {
+            text-align: center;
+    }
+
+    
+        }
+  .custom-image {
+            float: left;
+            width: 500px;
+            height: 350px;
+            margin-right: 20px;
+            margin-left: 15%;
+        }
+    .container-contents{
+        background-color: #fdda77;
+            margin: 0 auto;
+            padding: 20px;
+            height: 350px;
+     
+    }
+    .inside{
+        margin-left: 30px; 
+        width:auto;
+        font-size: 17px;
+        padding: 20px; 
+    text-align: left; 
+    }
+    .blogcontent{
+        background-color: #F5F5EB;
+    }
+    .blogcontent-align{
+        background-color: #F5F5EB;
+        padding-left:15%;
+        padding-top: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+    }
+    p {
+        text-align: justify; 
+        line-height: 1.5; 
+        margin-bottom: 20px; 
+    }
+    .highlighted-text{
+    color: black; 
+    font-weight: bold; 
+    padding: 2px 4px; 
+    border-radius: 4px; 
+    }
